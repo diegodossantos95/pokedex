@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0F92E01C8F1E7A00509845 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F92DF1C8F1E7A00509845 /* .gitignore */; };
 		8F5B3B8D1C8DBD630061B2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B3B8C1C8DBD630061B2AF /* AppDelegate.swift */; };
 		8F5B3B8F1C8DBD630061B2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B3B8E1C8DBD630061B2AF /* ViewController.swift */; };
 		8F5B3B921C8DBD630061B2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B3B901C8DBD630061B2AF /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		6B384D4D1EFDEBE85BE5995F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8F0F92DF1C8F1E7A00509845 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8F5B3B891C8DBD620061B2AF /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5B3B8C1C8DBD630061B2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F5B3B8E1C8DBD630061B2AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,9 +108,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8F0F92DE1C8F1E5A00509845 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F92DF1C8F1E7A00509845 /* .gitignore */,
+			);
+			name = Git;
+			sourceTree = "<group>";
+		};
 		8F5B3B801C8DBD620061B2AF = {
 			isa = PBXGroup;
 			children = (
+				8F0F92DE1C8F1E5A00509845 /* Git */,
 				8F5B3B8B1C8DBD620061B2AF /* pokedex */,
 				8F5B3BA01C8DBD630061B2AF /* pokedexTests */,
 				8F5B3BAB1C8DBD630061B2AF /* pokedexUITests */,
@@ -295,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0F92E01C8F1E7A00509845 /* .gitignore in Resources */,
 				8F5B3B971C8DBD630061B2AF /* LaunchScreen.storyboard in Resources */,
 				8F5B3B941C8DBD630061B2AF /* Assets.xcassets in Resources */,
 				8F5B3B921C8DBD630061B2AF /* Main.storyboard in Resources */,
